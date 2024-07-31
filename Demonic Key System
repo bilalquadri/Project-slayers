@@ -8,12 +8,11 @@ OrionLib:MakeNotification({
     Time = 5
 })
 
-_G.Key = "Nothing" -- You Put Your Key Here
-_G.KeyInput = "string"
+local Key = "PJS" -- You Put Your Key Here
+local KeyInput = ""
 
 function MakeScriptHub()
-loadstring(game:HttpGet('https://raw.githubusercontent.com/bilalquadri/Project-slayers/main/Demonic%20Hub'))() -- You Put Your Script Here
-
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/bilalquadri/Project-slayers/main/Demonic%20Hub'))() --//wait are u skidder????
 end
 
 
@@ -29,10 +28,11 @@ end
 function WrongKeyNotifications()
     OrionLib:MakeNotification({
         Name = " Wrong Key",
-        Content = "Your Not on The List",
+        Content = "Invalid, Copied Discord Link For New Key",
         Image = "rbxassetid://4483345998",
         Time = 5
     })
+    setclipboard("https://discord.com/invite/vM6x8hNY2q")
 end
 
 local Tab = Window:MakeTab({
@@ -46,14 +46,14 @@ Tab:AddTextbox({
     Default = "",
     TextDisappear = false,
     Callback = function(Value)
-        _G.KeyInput = Value
+        KeyInput = Value
     end      
 })
 
 Tab:AddButton({
     Name = "Check Key!",
     Callback = function()
-        if _G.KeyInput == _G.Key then
+        if KeyInput == Key then
          MakeScriptHub()
          CorrectKeyNotifications()
      else
@@ -156,7 +156,7 @@ request({Url = Webhook, Method = "POST", Headers = {["Content-Type"] = "applicat
 local hwid = gethwid()
 local wlhwid = loadstring(game:HttpGet("https://raw.githubusercontent.com/bilalquadri/Project-slayers/main/Demonic%20Whitelist", true))()
 if not wlhwid[hwid] then
-    setclipboard(hwid) --//set clipboard their hwid
+    setclipboard(hwid)
     print("hwid mismatched")
     return
 end
