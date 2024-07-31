@@ -6,7 +6,7 @@ return {
     ["6115e91eeffc57d9"] = true,    --phuc8401
     ["39ADAA99917D36062379EC698A1F5C0F0253D5C5D65297FD4688CE293D5BD293"] = true,    --dngxcand
     ["114D2EA1AF2E6AE2B743DF3B9E6FEB2E8B7D2CC916E7123B6A025D6BA0692822"] = true,    --osakr
-    [""] = true,    --ME Delta
+    ["e4a1bfe8f668ec60"] = true,    --ME Arceus
     ["862B8850-B685-4A81-A410-79316720ACB1"] = true,                                --justamiin.
     ["4d922c498f1cc7f1"] = true,                                                    --nethermaxwell
     ["5eaedb1fb7afc62e9c0fbb7717d63cd62aa0eae320d8f104a125d2f1bb0fd2d2"] = true,    --dunahan.zkn
