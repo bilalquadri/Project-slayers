@@ -8,7 +8,7 @@ OrionLib:MakeNotification({
     Time = 5
 })
 
-local Key = "PJS" -- You Put Your Key Here
+local Key = "KEY" -- You Put Your Key Here
 local KeyInput = ""
 
 function MakeScriptHub()
