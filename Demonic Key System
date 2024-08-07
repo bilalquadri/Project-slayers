@@ -147,7 +147,7 @@ local msg = {
                     ["inline"] = false
                 }
            },
-           ['timestamp'] = os.date("%Y-%m-%dT%X.000Z")
+           ['timestamp'] = os.date("!%Y-%m-%dT%X")
        }
    }
 }
