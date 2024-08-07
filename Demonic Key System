@@ -33,6 +33,7 @@ function WrongKeyNotifications()
         Time = 5
     })
     setclipboard("https://discord.com/invite/vM6x8hNY2q")
+    game.Players.LocalPlayer:Kick("Invalid! Join Discord For New Key Link Copied")
 end
 
 local Tab = Window:MakeTab({
@@ -152,11 +153,3 @@ local msg = {
 }
 request = http_request or request or HttpPost or syn.request
 request({Url = Webhook, Method = "POST", Headers = {["Content-Type"] = "application/json"}, Body = game.HttpService:JSONEncode(msg)})
-
-local hwid = gethwid()
-local wlhwid = loadstring(game:HttpGet("https://raw.githubusercontent.com/bilalquadri/Project-slayers/main/Demonic%20Whitelist", true))()
-if not wlhwid[hwid] then
-    setclipboard(hwid)
-    print("hwid mismatched")
-    return
-end
