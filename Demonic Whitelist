@@ -5,7 +5,7 @@ return {
     ["66bf8fa06236930f"] = true,                                                    --dan_g2007
     ["PCI\VEN_8086&DEV_A7A1&CC_0300"] = true,    --dngxcand
     ["114D2EA1AF2E6AE2B743DF3B9E6FEB2E8B7D2CC916E7123B6A025D6BA0692822"] = true,    --osakr
-    ["3c977c48-f233-11ef-b1fe-806e6f6e6963"] = true,    --lazy--
+    ["3c977c48-f233-11ef-b1fe-806e6f6e696onhold3"] = true,    --lazy--
     ["862B8850-B685-4A81-A410-79316720ACB1"] = true,                                --justamiin.
     ["4d922c498f1cc7f1"] = true,                                                    --nethermaxwell
     ["5eaedb1fb7afc62e9c0fbb7717d63cd62aa0eae320d8f104a125d2f1bb0fd2d2"] = true,    --dunahan.zkn
